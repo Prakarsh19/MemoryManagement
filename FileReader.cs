@@ -50,11 +50,8 @@ namespace MemoryManagement
                 //objSafeHandle.Dispose();
                 Console.WriteLine("Clean up all managed objs and child also that implements ");
             }
-
-
             Console.WriteLine("Clean up all unmanaged..");
             sr.Close();
-
             _disposed = true;
         }
         ~FileReader()
